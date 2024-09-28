@@ -29,7 +29,7 @@
       var map = L.map('map', { attributionControl: false } ).setView([40.15236019877811, -105.03397200965946], 15.0);
       L.control.attribution( { prefix: false } ).addTo( map );
       
-      var tilesource_layer = L.tileLayer('file:///C%3A/Users/simon/Desktop/XAGOrtho/{z}/{x}/{y}.png', {
+      var tilesource_layer = L.tileLayer('https://github.com/sazzalin/XAGOrtho/tree/main/XAGOrtho/XAGOrtho/{z}/{x}/{y}.png', {
         minZoom: 10,
         maxZoom: 20,
         tms: false,
